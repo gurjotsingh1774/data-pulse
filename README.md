@@ -264,7 +264,8 @@ Open `http://localhost:3000` in your browser.
 | Variable | Required | Default | Description |
 | :--- | :---: | :--- | :--- |
 | `PORT` | No | `5000` | Port on which the HTTP server listens |
-| `DATABASE_URL` | No | PostgreSQL connection string | Primary database URL (supports SQLite fallback) |
+| `DATA_PULSE_DATABASE_URL` | No | PostgreSQL connection string | Dedicated primary database URL (supports SQLite fallback) |
+| `DATABASE_URL` | No | PostgreSQL connection string | Fallback / shared database URL |
 | `REDIS_URL` | No | `redis://localhost:6379/0` | Redis URL for PubSub and caching |
 | `REDIS_CACHE_TTL` | No | `10` | Cache time-to-live in seconds for aggregate queries |
 
