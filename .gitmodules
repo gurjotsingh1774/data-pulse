@@ -1,0 +1,6 @@
+[submodule "data-pulse-backend"]
+	path = data-pulse-backend
+	url = https://github.com/gurjotsingh1774/data-pulse-backend.git
+[submodule "data-pulse-frontend"]
+	path = data-pulse-frontend
+	url = https://github.com/gurjotsingh1774/data-pulse-frontend.git
